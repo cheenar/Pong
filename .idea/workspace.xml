@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7794ecf5-c15b-43b9-b614-9f67b332e7a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AUTHORS" afterPath="$PROJECT_DIR$/AUTHORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pong.java" afterPath="$PROJECT_DIR$/src/Pong.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
     </list>
     <ignored path="Pong.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pong.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pong.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40381557">
-              <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16693164">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -64,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/PongWindow.java" />
         <option value="$PROJECT_DIR$/src/Pong.java" />
         <option value="$PROJECT_DIR$/AUTHORS" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -80,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
-    <option name="y" value="261" />
+    <option name="x" value="640" />
+    <option name="y" value="247" />
     <option name="width" value="1847" />
     <option name="height" value="1072" />
   </component>
@@ -650,15 +661,15 @@
       <created>1457143116752</created>
       <option name="number" value="Default" />
       <updated>1457143116752</updated>
-      <workItem from="1457143118531" duration="2256000" />
+      <workItem from="1457143118531" duration="2797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2256000" />
+    <option name="totallyTimeSpent" value="2797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="261" width="1847" height="1072" extended-state="0" />
+    <frame x="640" y="247" width="1847" height="1072" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -753,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AUTHORS">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023847377">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/awt/Font.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49920508">
@@ -769,10 +772,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38155803">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023847377">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40381557">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16693164">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
