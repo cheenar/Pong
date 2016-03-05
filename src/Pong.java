@@ -6,8 +6,7 @@ package src;/*
  */
 
 import javax.swing.JPanel;
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
@@ -51,7 +50,7 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 	// Constructor
 	public Pong (int p1_type, int p2_type) {
 		super ();
-		setBackground (new Color (0, 0, 0));
+		setBackground (new Color (255, 255, 255));
 		
 		player1 = new Player (p1_type);
 		player2 = new Player (p2_type);
@@ -233,14 +232,17 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 		g.fillRect (getWidth() - PADDING - WIDTH, player2.position - HEIGHT, WIDTH, HEIGHT * 2); //paddle 2
 		
 		// Ball
-		g.setColor (Color.WHITE);
+		g.setColor (Color.YELLOW);
 		g.fillOval (ball_x - RADIUS, ball_y - RADIUS, RADIUS*2, RADIUS*2);
 		
 		// Points
 		g.setColor(Color.CYAN);
-		g.drawString (player1.points+" ", getWidth() / 2 - 20, 20);
+		g.setFont(new Font("Arial", 0, 36));
+		g.drawString (player1.points+" ", getWidth() / 2 - 20, 48);
+
 		g.setColor(Color.GREEN);
-		g.drawString (player2.points+" ", getWidth() / 2 + 20, 20);
+		g.setFont(new Font("Arial", 0, 36));
+		g.drawString (player2.points+" ", getWidth() / 2 + 20, 48);
 	}
 	
 	// New frame

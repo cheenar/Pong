@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7794ecf5-c15b-43b9-b614-9f67b332e7a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AUTHORS" afterPath="$PROJECT_DIR$/AUTHORS" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pong.java" afterPath="$PROJECT_DIR$/src/Pong.java" />
     </list>
     <ignored path="Pong.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="Pong.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6710963">
-              <caret line="235" column="33" selection-start-line="235" selection-start-column="33" selection-end-line="235" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.40381557">
+              <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -62,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/PongWindow.java" />
         <option value="$PROJECT_DIR$/src/Pong.java" />
+        <option value="$PROJECT_DIR$/AUTHORS" />
       </list>
     </option>
   </component>
@@ -648,12 +650,12 @@
       <created>1457143116752</created>
       <option name="number" value="Default" />
       <updated>1457143116752</updated>
-      <workItem from="1457143118531" duration="2018000" />
+      <workItem from="1457143118531" duration="2256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2018000" />
+    <option name="totallyTimeSpent" value="2256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="313" y="261" width="1847" height="1072" extended-state="0" />
@@ -751,10 +753,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023847377">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49920508">
+          <caret line="566" column="11" selection-start-line="566" selection-start-column="11" selection-end-line="566" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6710963">
-          <caret line="235" column="33" selection-start-line="235" selection-start-column="33" selection-end-line="235" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.40381557">
+          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
           <folding />
         </state>
       </provider>
