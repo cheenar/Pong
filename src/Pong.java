@@ -264,9 +264,9 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 	// Key pressed
 	public void keyPressed (KeyEvent e) {
 //		System.out.println ("Pressed "+e.getKeyCode()+"   "+KeyEvent.VK_UP+" "+KeyEvent.VK_DOWN);
-		if (e.getKeyCode() == KeyEvent.VK_UP)
+		if (e.getKeyCode() == KeyEvent.VK_UP || e.getKeyCode() == KeyEvent.VK_W)
 			key_up = true;
-		else if (e.getKeyCode() == KeyEvent.VK_DOWN)
+		else if (e.getKeyCode() == KeyEvent.VK_DOWN || e.getKeyCode() == KeyEvent.VK_S)
 			key_down = true;
 	}
 	
