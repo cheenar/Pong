@@ -28,8 +28,8 @@
       <file leaf-file-name="Pong.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4753577">
-              <caret line="268" column="86" selection-start-line="268" selection-start-column="86" selection-end-line="268" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.54651165">
+              <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -648,12 +648,12 @@
       <created>1457143116752</created>
       <option name="number" value="Default" />
       <updated>1457143116752</updated>
-      <workItem from="1457143118531" duration="1759000" />
+      <workItem from="1457143118531" duration="1966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1759000" />
+    <option name="totallyTimeSpent" value="1966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="313" y="261" width="1847" height="1072" extended-state="0" />
@@ -753,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4753577">
-          <caret line="268" column="86" selection-start-line="268" selection-start-column="86" selection-end-line="268" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.54651165">
+          <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
           <folding />
         </state>
       </provider>

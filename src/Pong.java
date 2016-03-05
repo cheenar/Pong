@@ -129,7 +129,7 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 	public void paintComponent (Graphics g) {
 		super.paintComponent (g);
 		
-		// Prepara il campo di gioco
+		// Prepare the game field
 		if (new_game) {
 			ball_x = getWidth () / 2;
 			ball_y = getHeight () / 2;
@@ -152,21 +152,21 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 			new_game = false;
 		}
 		
-		// Calcola la posizione del primo giocatore
+		// Calculate the position of the first player
 		if (player1.getType() == Player.MOUSE || player1.getType() == Player.KEYBOARD || ball_x_speed < 0)
 			computePosition (player1);
 		
-		// Calcola la posizione del secondo giocatore
+		// Calculate the position of the second player
 		if (player2.getType() == Player.MOUSE || player2.getType() == Player.KEYBOARD || ball_x_speed > 0)
 			computePosition (player2);
 		
-		// Calcola la posizione della pallina
+		// Calculate the delta for the ball
 		ball_x += ball_x_speed;
 		ball_y += ball_y_speed;
 		if (ball_y_speed < 0) // Hack to fix double-to-int conversion
 			ball_y ++;
 		
-		// Accelera la pallina
+		// Ball acceleration
 		if (acceleration) {
 			ball_acceleration_count ++;
 			if (ball_acceleration_count == ACCELERATION) {
@@ -224,16 +224,22 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 			ball_y = 2 * (getHeight() - RADIUS) - ball_y;
 		}
 		
-		// Disegna i carrelli
+		// Paddles
 		g.setColor (Color.WHITE);
-		g.fillRect (PADDING, player1.position - HEIGHT, WIDTH, HEIGHT * 2);
-		g.fillRect (getWidth() - PADDING - WIDTH, player2.position - HEIGHT, WIDTH, HEIGHT * 2);
+
+		g.setColor(Color.CYAN);
+		g.fillRect (PADDING, player1.position - HEIGHT, WIDTH, HEIGHT * 2); //paddle 1
+
+		g.setColor(Color.GREEN);
+		g.fillRect (getWidth() - PADDING - WIDTH, player2.position - HEIGHT, WIDTH, HEIGHT * 2); //paddle 2
 		
-		// Disegna la palla
+		// Ball
 		g.fillOval (ball_x - RADIUS, ball_y - RADIUS, RADIUS*2, RADIUS*2);
 		
-		// Disegna i punti
+		// Points
+		g.setColor(Color.CYAN);
 		g.drawString (player1.points+" ", getWidth() / 2 - 20, 20);
+		g.setColor(Color.GREEN);
 		g.drawString (player2.points+" ", getWidth() / 2 + 20, 20);
 	}
 	
