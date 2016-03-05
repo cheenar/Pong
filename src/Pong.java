@@ -1,4 +1,4 @@
-/*  
+package src;/*
  *  Copyright (C) 2010  Luca Wehrstedt
  *
  *  This file is released under the GPLv2
@@ -6,7 +6,6 @@
  */
 
 import javax.swing.JPanel;
-import javax.swing.JOptionPane;
 import java.awt.Color;
 import java.awt.Graphics;
 

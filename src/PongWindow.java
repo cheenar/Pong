@@ -1,4 +1,4 @@
-/*  
+package src;/*
  *  Copyright (C) 2010  Luca Wehrstedt
  *
  *  This file is released under the GPLv2
@@ -12,10 +12,10 @@ public class PongWindow extends JFrame {
 	public PongWindow () {
 		super ();
 		
-		setTitle ("Pong");
-		setSize (640, 480);
+		setTitle ("Ping Pong");
+		setSize (Application.settings.getSettingInt("windowX"), Application.settings.getSettingInt("windowY"));
 		
-		Pong content = new Pong (Player.CPU_HARD, Player.CPU_EASY);
+		Pong content = new Pong (Player.MOUSE, Player.CPU_EASY);
 		content.acceleration = true;
 		getContentPane ().add (content);
 		
