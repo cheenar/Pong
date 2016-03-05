@@ -225,7 +225,6 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 		}
 		
 		// Paddles
-		g.setColor (Color.WHITE);
 
 		g.setColor(Color.CYAN);
 		g.fillRect (PADDING, player1.position - HEIGHT, WIDTH, HEIGHT * 2); //paddle 1
@@ -234,6 +233,7 @@ public class Pong extends JPanel implements ActionListener, MouseListener, KeyLi
 		g.fillRect (getWidth() - PADDING - WIDTH, player2.position - HEIGHT, WIDTH, HEIGHT * 2); //paddle 2
 		
 		// Ball
+		g.setColor (Color.WHITE);
 		g.fillOval (ball_x - RADIUS, ball_y - RADIUS, RADIUS*2, RADIUS*2);
 		
 		// Points
