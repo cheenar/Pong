@@ -15,7 +15,7 @@ public class PongWindow extends JFrame {
 		setTitle ("Ping Pong");
 		setSize (Application.settings.getSettingInt("windowX"), Application.settings.getSettingInt("windowY"));
 		
-		Pong content = new Pong (Player.MOUSE, Player.CPU_EASY);
+		Pong content = new Pong (Player.getPlayer(1), Player.getPlayer(2));
 		content.acceleration = true;
 		getContentPane ().add (content);
 		

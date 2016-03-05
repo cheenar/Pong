@@ -26,7 +26,31 @@ public class Player {
 		}
 		this.type = type;
 	}
-	
+
+	public static int getPlayer(int pos)
+	{
+		if(Application.settings.getSetting("player" + pos).startsWith("mouse"))
+		{
+			return 2;
+		}
+		else if(Application.settings.getSetting("player" + pos).startsWith("keyboard"))
+		{
+			return 3;
+		}
+		else if(Application.settings.getSetting("player" + pos).startsWith("cpu_easy"))
+		{
+			return 0;
+		}
+		else if(Application.settings.getSetting("player" + pos).startsWith("cpu_hard"))
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;
+		}
+	}
+
 	public int getType () {
 		return type;
 	}
