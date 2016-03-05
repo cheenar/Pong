@@ -8,11 +8,12 @@ package src;/*
 import javax.swing.JOptionPane;
 
 public class Player {
-	// Tipi di giocatore
+	// Type of player
 	public static final int CPU_EASY = 0;
 	public static final int CPU_HARD = 1;
 	public static final int MOUSE = 2;
 	public static final int KEYBOARD = 3;
+	public static final int ONLINE = 4;
 	
 	private int type;
 	public int position = 0;
@@ -20,7 +21,7 @@ public class Player {
 	public int points = 0;
 	
 	public Player (int type) {
-		if (type < 0 || type > 3) {
+		if (type < 0 || type > 4) {
 			type = CPU_EASY;
 			JOptionPane.showMessageDialog (null, "Some errors in player definition");
 		}
@@ -44,6 +45,10 @@ public class Player {
 		else if(Application.settings.getSetting("player" + pos).startsWith("cpu_hard"))
 		{
 			return 1;
+		}
+		else if(Application.settings.getSetting("player" + pos).startsWith("online"))
+		{
+			return ONLINE;
 		}
 		else
 		{
